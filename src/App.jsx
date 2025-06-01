@@ -11,7 +11,6 @@ export default function NumberGuessingGame() {
   const [guessHistory, setGuessHistory] = useState([]);
   const [hint, setHint] = useState('');
 
-
   useEffect(() => {
     startNewGame();
   }, []);
